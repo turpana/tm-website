@@ -1,0 +1,47 @@
+body {
+  font-family: 'edmondsansregular', sans-serif;
+  color: $gray-dark;
+  display: initial;
+}
+::-moz-selection {
+  color: white;
+  background: darken(greenyellow, 15%);
+}
+::selection {
+  color: white;
+  background: darken(greenyellow, 15%);
+}
+
+.page-content {
+  padding: 50px 0;
+  h2, h3, h4, h5, h6 {
+    color: $green;
+    color: lighten($gray-dark, 15%);
+    font-family: 'ddc_hardware_regularregular';
+    margin-bottom: 35px;
+  }
+  p {
+    margin-bottom: 35px;
+  }
+  a {
+    color: darken($green, 15%);
+    transition: all 750ms;
+    &:hover,
+    &:active,
+    &:focus {
+      color: $gray-dark;
+      background-color: lighten($green-bright, 15%);
+      text-decoration: none;
+    }
+  }
+}
+.page-with-sidebar {
+  @media only screen and (min-width: $lg) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 60px;
+  }
+  h4 {
+    //color: $orange;
+  }
+}

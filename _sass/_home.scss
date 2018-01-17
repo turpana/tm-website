@@ -1,0 +1,220 @@
+#home-wrapper {
+  position: relative;
+}
+#home-content {
+  text-align: left;
+  color: white;
+  position: absolute;
+  width: calc(100vw - 40px);
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  z-index: 50;
+  background-color: $black-transparent;
+  @media only screen and (min-width: $lg) {
+    text-align: right;
+    background: none;
+  }
+}
+.home-name {
+  font-family: 'ddc_hardware_regularregular';
+  display: inline-block;
+  font-size: 22px;
+  @media only screen and (min-width: $med) {
+    font-size: 50px;
+  }
+  @media only screen and (min-width: $lg) {
+    max-width: 50vw;
+    font-size: 70px;
+  }
+}
+.home-description {
+  @media only screen and (min-width: $lg) {
+    display: inline-block;
+    max-width: 70vw;
+  }
+}
+#home-hello {
+  @media only screen and (min-width: $med) {
+    font-size: 18px;
+  }
+  a { 
+    color: white;
+    background: -webkit-linear-gradient($green, $cyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}
+#home-menu {
+  list-style-type: none;
+  margin: 0;
+  li {
+    &:after {
+      @media only screen and (min-width: $med) {
+        content: "\\\\";
+        padding: 0 20px 0;
+        font-family: 'ddc_hardwarecompressed';
+        font-size: 18px;
+      }
+      @media only screen and (min-width: $med) {
+        font-size: 25px;
+      }
+      @media only screen and (min-width: $lg) {
+        font-size: 35px;
+      }
+    }
+    @media only screen and (min-width: $med) {
+      display: inline-block;
+    }
+    &:last-child:after {
+      content: none;
+      padding: 0;
+    }
+  }
+}
+a.home-menu-link {
+  font-family: 'ddc_hardwarecompressed';
+  font-size: 18px;
+  @media only screen and (min-width: $med) {
+    font-size: 25px;
+  }
+  @media only screen and (min-width: $lg) {
+    font-size: 35px;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+  &.var-ex {
+    color: $orange;
+    color: white;
+    &:hover {
+      color: lighten($orange, 15%);
+      color: $green-bright;
+    }
+  }
+  &.var-mu {
+    color: $cyan;
+    color: white;
+    &:hover {
+      color: lighten($cyan, 15%);
+      color: $green-bright;
+    }
+  }
+  &.var-bl {
+    color: $green;
+    color: white;
+    &:hover {
+      color: lighten($green, 15%);
+      color: $green-bright;
+    }
+  }
+  &.var-co {
+    color: $green-bright;
+    color: white;
+    &:hover {
+      color: lighten($green-bright, 15%);
+      color: $green-bright;
+    }
+  }
+}
+.home-content-bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 50vh solid transparent;
+  border-right: 50vw solid $black-transparent;
+  border-bottom: 50vh solid $black-transparent;
+  border-left: 50vw solid transparent;
+  z-index: 10;
+  @media only screen and (min-width: $lg) {
+    display: block;
+  }
+}
+#home-bg,
+#home-bg::before,
+#home-bg::after, 
+#home-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/images/home-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+#home-bg.is-glitching::before,
+#home-bg.is-glitching::after {
+  content: ".";
+  text-indent: -9999px;
+  display: block;
+  clip: rect(0vh, 100vw, 0vh, 0vw);
+}
+#home-bg.is-glitching::before {
+  background-position: -3px center;
+  top: -1px;
+  filter: hue-rotate(-60deg);
+  -webkit-filter: hue-rotate(-60deg);
+  animation: glitch-anim 6550ms infinite alternate-reverse;
+  z-index: 2;
+}
+#home-bg.is-glitching::after {
+  left: -7px;
+  top: 2px;
+  filter: hue-rotate(-85deg);
+  -webkit-filter: hue-rotate(-85deg);
+  animation: glitch-anim 5300ms infinite alternate-reverse;
+  background-blend-mode: multiply;
+  z-index: 3;
+}
+@keyframes glitch-anim {
+  0% {
+    clip: rect(0vh, 100vw, 0vh, 0vw);
+  }
+  1% {
+    clip: rect(0vh, 100vw, 16vh, 0vw);
+  }
+  8% {
+    clip: rect(16vh, 100vw, 30vh, 0vw);
+  }
+  26% {
+    clip: rect(0vh, 100vw, 0vh, 0);
+  }
+  30% {
+    clip: rect(30vh, 100vw, 50vh, 0);
+  }
+  31% {
+    clip: rect(30vh, 100vw, 32vh, 0);
+  }
+  64% {
+    clip: rect(42vh, 100vw, 78vh, 0);
+  }
+  75% {
+    clip: rect(15vh, 100vw, 13vh, 0);
+  }
+  76% {
+    clip: rect(0vh, 100vw, 0vh, 0vw);
+  }
+  95% {
+    clip: rect(95vh, 100vw, 100vh, 0);
+  }
+  98% {
+    clip: rect(53vh, 100vw, 5vh, 0);
+  }
+  100% {
+    clip: rect(0vh, 100vw, 0vh, 0vw);
+  }
+}
+

@@ -1,0 +1,61 @@
+
+// experience page
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin-bottom: 25px;
+  h4 {
+    color: $gray-dark;
+    text-transform: none;
+    font-family: 'edmondsansbold';
+  }
+  ul {
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+}
+.experience-work-examples {
+  img {
+    margin: 25px 0 35px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 1250ms;
+    transition: -webkit-filter 1250ms;
+    &:hover {
+      -webkit-filter: grayscale(0%);
+    }
+  }
+}
+
+// connect page
+ul.connect-links {
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin-bottom: 25px;
+  .connect-link {
+    margin: 0;
+    padding: 0;
+    background-color: $gray-faint;
+  }
+  a {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+    img {
+      max-height: 100%;
+    }
+  }
+}

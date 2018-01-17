@@ -1,0 +1,86 @@
+.site-title {
+  font-family: 'ddc_hardware_regularregular';
+  color: black;
+  transition: background-color 250ms, color 250ms;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: lighten($green-bright, 15%);
+    text-decoration: none;
+  }
+}
+.page-link {
+  position: relative;
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: lighten($green-bright, 15%);
+    text-decoration: none;
+    @media only screen and (min-width: $med) {
+      &::before,
+      &::after {
+        content: '.';
+        text-indent: -9999px;
+        display: block;
+        position: absolute;
+      }
+      &::before {
+        left: -10px;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 10px solid lighten($green-bright, 15%);
+        border-right: 5px solid lighten($green-bright, 15%);
+        border-bottom: 10px solid transparent;
+        border-left: 5px solid transparent;
+      }
+      &::after {
+        right: -10px;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 5px solid lighten($green-bright, 15%);
+        border-bottom: 10px solid lighten($green-bright, 15%);
+        border-right: 5px solid transparent;
+      }
+    }
+  }
+  &.is-active {
+    background-color: $cyan;
+    @media only screen and (min-width: $med) {
+      &::after,
+      &::before {
+        content: '.';
+        text-indent: -9999px;
+        position: absolute;
+      }
+      &::before {
+        left: -10px;
+        top: 0;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10px solid $cyan;
+        border-right: 5px solid $cyan;
+        border-bottom: 10px solid transparent;
+        border-left: 5px solid transparent;
+      }
+      &::after {
+        right: -10px;
+        top: 0;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 10px solid $cyan;
+        border-left: 5px solid $cyan;
+      }
+    }
+  }
+}
