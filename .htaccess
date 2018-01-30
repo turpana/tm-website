@@ -1,2 +1,5 @@
 IndexIgnore *
 ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^turpana.com [NC]
+RewriteRule ^(.*)$ http://www.turpana.com/$1 [L,R=301,NC]
