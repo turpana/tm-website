@@ -7,15 +7,15 @@ menu order: 1
 <div class="page-with-sidebar">
   <div class="main-content-area">
     <p>
-    I have been a web developer for about 9 years. In that time, I have built everything from simple blog websites to complex enterprise-level single-page javascript applications. I currently work at <a href="https://www.lrxd.com" target="_blank">LRXD</a>, the health and happiness advertising agency in Denver, CO. Prior to that I worked as a freelance web developer and continue to work with a few select clients.
+    I have been a web developer for about 10 years. In that time, I have built everything from simple blog websites to complex enterprise-level single-page JavaScript applications. I currently work at <a href="https://bounddigital.com/" target="_blank">BoundDigital</a> consulting in Denver, CO. Prior to that I worked at <a href="https://lrxd.com/" target="_blank">LRXD</a> advertising agency. I also occasionally do freelance web development work and continue to work with a few select clients.
     </p>
     <h3>Skills</h3>
     <p>
-    I’m profficient in the programming languages and web frameworks listed below. When needed, I'm also ready to reach out to my network of developers and designers to draw on additional skills or work in parallel.
+    I’m proficient in the programming languages and web frameworks listed below. When needed, I'm also ready to reach out to my network of developers and designers to draw on additional skills or work in parallel.
     </p>
     <div class="skills-wrapper">
       <div>
-        <h4>Javascript</h4>
+        <h4>JavaScript</h4>
         <ul>
           <li>Node</li>
           <li>Backbone</li>
