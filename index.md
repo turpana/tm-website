@@ -11,10 +11,10 @@ image: home-bg.png
   </p>
 </div>
 <ul id="home-menu">
-  <li><a href="/experience-and-skills" class="home-menu-link var-ex">Experience &amp; Skills</a></li>
-  <li><a href="/music" class="home-menu-link var-mu">Music</a></li>
+  <li><a href="{{ site.baseurl }}/experience-and-skills" class="home-menu-link var-ex">Experience &amp; Skills</a></li>
+  <li><a href="{{ site.baseurl }}/music" class="home-menu-link var-mu">Music</a></li>
   <!--
-  <li><a href="/blog" class="home-menu-link var-bl">Blog</a></li>
+  <li><a href="{{ site.baseurl }}/blog" class="home-menu-link var-bl">Blog</a></li>
   -->
-  <li><a href="/connect" class="home-menu-link var-co">Connect</a></li>
+  <li><a href="{{ site.baseurl }}/connect" class="home-menu-link var-co">Connect</a></li>
 </ul>
