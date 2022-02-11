@@ -31,5 +31,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 #destination: _site
-destionation: docs
+destination: docs
 google_analytics: UA-13267687-1
