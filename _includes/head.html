@@ -44,9 +44,9 @@
   {% endif %}
   -->
   {% if page.image %}
-    <meta content="/assets/images/{{ page.image }}" property="og:image">
+    <meta content="{{ site.baseurl }}/assets/images/{{ page.image }}" property="og:image">
   {% else %}
-    <meta content="/assets/images/home-bg.png" property="og:image">
+    <meta content="{{ site.baseurl }}/assets/images/home-bg.png" property="og:image">
   {% endif %}
   <!-- open graph tags end -->
 
@@ -58,9 +58,9 @@
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   {% if page.image %}
-    <meta name="twitter:image:src" content="/assets/images/{{ page.image }}">
+    <meta name="twitter:image:src" content="{{ site.baseurl }}/assets/images/{{ page.image }}">
   {% else %}
-    <meta name="twitter:image:src" content="/assets/images/home-bg.png">
+    <meta name="twitter:image:src" content="{{ site.baseurl }}/assets/images/home-bg.png">
   {% endif %}
   <!-- twitter card tags end -->
 
