@@ -17,7 +17,7 @@ title: Turpana Molina
 #email: 
 description: > # this means to ignore newlines until "baseurl:"
   Web design and development services provided by Turpana Molina | Based in sunny Denver, CO | Ruby on Rails | JavaScript | Backbone.js | PHP | Drupal | Cordova
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/tm-website" # the subpath of your site, e.g. /blog
 url: "http://www.turpana.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: turpana
 github_username:  turpana
@@ -30,6 +30,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-#destination: _site
-destination: docs
+destination: _site
 google_analytics: UA-13267687-1
