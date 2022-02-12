@@ -7,7 +7,7 @@ menu order: 1
 <div class="page-with-sidebar">
   <div class="main-content-area">
     <p>
-    I have been a web developer for about 10 years. In that time, I have built everything from simple blog websites to complex enterprise-level single-page JavaScript applications. I currently work at <a href="https://www.teksystems.com/" target="_blank">TEKSystems</a> consulting at Apple. Prior to that I worked at <a href="https://www.corepoweryoga.com/" target="_blank">CorePower Yoga</a>. I also occasionally do freelance web development work and continue to work with a few select clients.
+    I have been a web developer for about 12 years. In that time, I have built everything from simple blog websites to complex enterprise-level single-page JavaScript applications. I currently work at <a href="https://www.teksystems.com/" target="_blank">TEKSystems</a> consulting at Apple. Prior to that I worked at <a href="https://www.corepoweryoga.com/" target="_blank">CorePower Yoga</a>. I also occasionally do freelance web development work and continue to work with a few select clients.
     </p>
     <h3>Skills</h3>
     <p>
