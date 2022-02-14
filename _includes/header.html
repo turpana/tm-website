@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {% assign default_paths = site.pages | where_exp: "page", "!page.menu_order.nil?" | sort: "menu order"| map: "path" %}
+    {% assign default_paths = site.pages | where_exp: "page", "page.menu_order.to_i > 0" | sort: "menu order"| map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   
