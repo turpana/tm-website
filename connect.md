@@ -2,7 +2,7 @@
 layout: page
 title: Connect
 permalink: /connect/
-menu order: 4
+menu_order: 4
 ---
 
 <div class="page-connect">

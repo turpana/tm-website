@@ -2,7 +2,7 @@
 layout: page
 title: Experience & Skills
 permalink: /experience-and-skills/
-menu order: 1
+menu_order: 1
 ---
 <div class="page-with-sidebar">
   <div class="main-content-area">

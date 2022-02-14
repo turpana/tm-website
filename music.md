@@ -2,7 +2,7 @@
 layout: page
 title: Music
 permalink: /music/
-menu order: 2
+menu_order: 2
 ---
 <div class="page-with-sidebar">
   <div class="main-content-area">
