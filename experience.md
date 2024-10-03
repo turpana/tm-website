@@ -7,7 +7,7 @@ menu_order: 1
 <div class="page-with-sidebar">
   <div class="main-content-area">
     <p>
-    I have been a web developer for about 12 years. In that time, I have built everything from simple blog websites to complex enterprise-level single-page JavaScript applications. I currently work at <a href="https://www.teksystems.com/" target="_blank">TEKSystems</a> consulting at Apple. Prior to that I worked at <a href="https://www.corepoweryoga.com/" target="_blank">CorePower Yoga</a>. I also occasionally do freelance web development work and continue to work with a few select clients.
+    I have been a web developer for about 14 years. In that time, I have built everything from simple blog websites to complex enterprise-level single-page JavaScript applications. I'm currently working on <a href="https://www.legalthunderapps.com/" target="_blank">Legal Thunder</a>. Prior to that I worked at <a href="https://www.teksystems.com/" target="_blank">TEKSystems</a> consulting at Apple. I also occasionally do freelance web development work and continue to work with a few select clients.
     </p>
     <h3>Skills</h3>
     <p>
@@ -18,12 +18,11 @@ menu_order: 1
         <h4>JavaScript</h4>
         <ul>
           <li>Node</li>
-          <li>Backbone</li>
           <li>React</li>
           <li>D3</li>
-          <li>ES6</li>
-          <li>Angular</li>
           <li>jQuery</li>
+          <li>Backbone</li>
+          <li>Angular</li>
         </ul>
       </div>
       <div>
@@ -38,7 +37,7 @@ menu_order: 1
       <div>
         <h4>PHP</h4>
         <ul>
-          <li>Drupal 6/7/8</li>
+          <li>Drupal</li>
           <li>Laravel</li>
           <li>WordPress</li>
           <li>CakePHP</li>
@@ -65,6 +64,7 @@ menu_order: 1
         <h4>Other</h4>
         <ul>
           <li>Git</li>
+          <li>Go</li>
           <li>Bash/Terminal</li>
           <li>Linux/Ubuntu</li>
         </ul>
@@ -82,7 +82,7 @@ menu_order: 1
     </p>
   </div>
   <div class="sidebar">
-    <h4>Latest Work</h4>
+    <h4>Past Work</h4>
     <div class="experience-work-examples">
       <a href="https://www.lrxd.com/work/health-fitness/corepower-yoga" target="_blank">
         <img src="/assets/images/examples/corepower-yoga-450.png" />
