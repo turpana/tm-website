@@ -11,9 +11,9 @@ Concert service fees are too high and artists don't have much say in the matter.
 Independent music venues.
 ## How?
 1. Find like minded people interested in collaborating on this project.
-2. Work together and complete the steps needed to launch. Some questions that will need to be answered:
+2. Work through questions regarding the coop's founding structure and product launch features:
  - What is the viability of the project?
- - What features must be included for minimum viable project?
+ - What features must be included for minimum viable product?
  - Where does it fit in the current ecosystem of digital tools and platforms used by artists and venues?
  - What will be the cooperative's governing structure?
  - Who will be eligible to join and what will be the membership tiers?
