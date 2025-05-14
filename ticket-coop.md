@@ -24,9 +24,19 @@ Independent music venues.
 4. Get the word out.
 5. Maintain and grow.
 
-## A few resources and references
+## Resources // references
 
-- <https://www.youtube.com/watch?v=UFCmplzvt1Y>
-- <https://ncbaclusa.coop/blog/co-op-101-how-to-start-a-co-op/>
-- <https://www.youtube.com/watch?v=aF8yM2oYbRE>
+### Ticketing Services Landscape
 - <https://youtu.be/u--se25_px8?si=Y2ZwUjR1Gx922R6F>
+
+### Principles // Primers
+- <https://www.youtube.com/watch?v=UFCmplzvt1Y>
+- <https://www.youtube.com/watch?v=aF8yM2oYbRE>
+
+### Logistics // Org Tools
+- <https://opencollective.com/>
+- <https://ncbaclusa.coop/blog/co-op-101-how-to-start-a-co-op/>
+
+### Open Source Software
+- <https://hi.events/>
+- <https://www.attendize.com/>
