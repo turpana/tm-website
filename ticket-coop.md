@@ -36,7 +36,10 @@ Independent music venues.
 ### Logistics // Org Tools
 - <https://opencollective.com/>
 - <https://ncbaclusa.coop/blog/co-op-101-how-to-start-a-co-op/>
+- <https://www.enspiral.com/>
+- <https://www.loomio.com/>
 
-### Open Source Software
+### Open Source Software // Resources
 - <https://hi.events/>
 - <https://www.attendize.com/>
+- <https://choosealicense.com/>
